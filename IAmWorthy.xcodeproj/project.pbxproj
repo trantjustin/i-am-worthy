@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A4AAD729819ADD860EA8DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F4717F2A7E0CEC840FA4C /* ContentView.swift */; };
+		52D732516CA79AB27DC095CF /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1505B6EDF0FA53ABAB783B /* Affirmations.swift */; };
+		53B8CD5A8C35C94571CBC9CD /* IAmWorthyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464B23A1D5E8D6E6F7D4EF5 /* IAmWorthyApp.swift */; };
+		549702F85B3CF61246338817 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A0D98FEAD42B84BF0534DF /* SwiftUI.framework */; };
+		71D69B4E5617EB5018644F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E03D85AADE28434EB920B4 /* Assets.xcassets */; };
+		9F0B1A98D85C48FA502A3C8C /* IAmWorthyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D444EACE9F37585FA70F63 /* IAmWorthyWidgetBundle.swift */; };
+		B413700F170249C0F08181BA /* IAmWorthyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E3309DEFBFD79D0215FC6A3C /* IAmWorthyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC61E5E19285C07DA80942C4 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1505B6EDF0FA53ABAB783B /* Affirmations.swift */; };
+		CD3C82F301D66A69A0BB41F3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3681F6D67AE6159552E7F201 /* WidgetKit.framework */; };
+		F40F1D2402D4FA4D67B63B55 /* IAmWorthyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E5F3E89FF911997D06B82E /* IAmWorthyWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C43159E7A71CF0BAC5AF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D214795FE77E506D067E3F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41DC581A3E8BFEA7BAE0C088;
+			remoteInfo = IAmWorthyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1FD090112CEDBC274368C6C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B413700F170249C0F08181BA /* IAmWorthyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26A0D98FEAD42B84BF0534DF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2E9F4717F2A7E0CEC840FA4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3681F6D67AE6159552E7F201 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4F1505B6EDF0FA53ABAB783B /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
+		88D444EACE9F37585FA70F63 /* IAmWorthyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyWidgetBundle.swift; sourceTree = "<group>"; };
+		C51786FC29AD2EF9CF02717A /* IAmWorthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmWorthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E5F3E89FF911997D06B82E /* IAmWorthyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyWidget.swift; sourceTree = "<group>"; };
+		E3309DEFBFD79D0215FC6A3C /* IAmWorthyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IAmWorthyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E03D85AADE28434EB920B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F464B23A1D5E8D6E6F7D4EF5 /* IAmWorthyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72217AEF7EBB6BC3A43068F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3C82F301D66A69A0BB41F3 /* WidgetKit.framework in Frameworks */,
+				549702F85B3CF61246338817 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C50FE52B52E5576BD6C5BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51786FC29AD2EF9CF02717A /* IAmWorthy.app */,
+				E3309DEFBFD79D0215FC6A3C /* IAmWorthyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D5267731D929C40E727A66 = {
+			isa = PBXGroup;
+			children = (
+				C2D2EFE2CEBB333A58D1F9A6 /* IAmWorthyApp */,
+				E5F716CDB04094E20CB31B8D /* IAmWorthyWidget */,
+				91CB78D198E485897F788130 /* Shared */,
+				8AB2DB55F50DF9E7B821D01D /* Frameworks */,
+				3C50FE52B52E5576BD6C5BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB2DB55F50DF9E7B821D01D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A0D98FEAD42B84BF0534DF /* SwiftUI.framework */,
+				3681F6D67AE6159552E7F201 /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CB78D198E485897F788130 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4F1505B6EDF0FA53ABAB783B /* Affirmations.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C2D2EFE2CEBB333A58D1F9A6 /* IAmWorthyApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3E03D85AADE28434EB920B4 /* Assets.xcassets */,
+				2E9F4717F2A7E0CEC840FA4C /* ContentView.swift */,
+				F464B23A1D5E8D6E6F7D4EF5 /* IAmWorthyApp.swift */,
+			);
+			path = IAmWorthyApp;
+			sourceTree = "<group>";
+		};
+		E5F716CDB04094E20CB31B8D /* IAmWorthyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C7E5F3E89FF911997D06B82E /* IAmWorthyWidget.swift */,
+				88D444EACE9F37585FA70F63 /* IAmWorthyWidgetBundle.swift */,
+			);
+			path = IAmWorthyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41DC581A3E8BFEA7BAE0C088 /* IAmWorthyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855BADBCCA40F40D2B72A46C /* Build configuration list for PBXNativeTarget "IAmWorthyWidgetExtension" */;
+			buildPhases = (
+				2C17C9D4C4F50DA522B4BDE5 /* Sources */,
+				72217AEF7EBB6BC3A43068F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IAmWorthyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = IAmWorthyWidgetExtension;
+			productReference = E3309DEFBFD79D0215FC6A3C /* IAmWorthyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8FBD73006D3D07FF926ED8EF /* IAmWorthy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B0E83CA7E6206D75914022 /* Build configuration list for PBXNativeTarget "IAmWorthy" */;
+			buildPhases = (
+				6C1464AF1A6F479551E5D2EC /* Sources */,
+				AB752C18E98D3E56D2B4BFA7 /* Resources */,
+				F1FD090112CEDBC274368C6C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83FFF89E16DAFC7AF91F6F8B /* PBXTargetDependency */,
+			);
+			name = IAmWorthy;
+			packageProductDependencies = (
+			);
+			productName = IAmWorthy;
+			productReference = C51786FC29AD2EF9CF02717A /* IAmWorthy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D214795FE77E506D067E3F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					41DC581A3E8BFEA7BAE0C088 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E801F152EAD89CA7F7659ED /* Build configuration list for PBXProject "IAmWorthy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 49D5267731D929C40E727A66;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C50FE52B52E5576BD6C5BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBD73006D3D07FF926ED8EF /* IAmWorthy */,
+				41DC581A3E8BFEA7BAE0C088 /* IAmWorthyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB752C18E98D3E56D2B4BFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D69B4E5617EB5018644F56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C17C9D4C4F50DA522B4BDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D732516CA79AB27DC095CF /* Affirmations.swift in Sources */,
+				F40F1D2402D4FA4D67B63B55 /* IAmWorthyWidget.swift in Sources */,
+				9F0B1A98D85C48FA502A3C8C /* IAmWorthyWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1464AF1A6F479551E5D2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC61E5E19285C07DA80942C4 /* Affirmations.swift in Sources */,
+				38A4AAD729819ADD860EA8DD /* ContentView.swift in Sources */,
+				53B8CD5A8C35C94571CBC9CD /* IAmWorthyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83FFF89E16DAFC7AF91F6F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41DC581A3E8BFEA7BAE0C088 /* IAmWorthyWidgetExtension */;
+			targetProxy = D6C43159E7A71CF0BAC5AF2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		459968935F89F3242C0A4B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5L4KT67Y36;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IAmWorthyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtrant.iamworthy.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82599755025A3F07D62885EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		A6085512CA7CD0D7B3163093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L4KT67Y36;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Am Worthy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtrant.iamworthy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B2B8656C43C7FF15DEA48F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L4KT67Y36;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Am Worthy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtrant.iamworthy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C136E8098CB87B3B16C0DBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5L4KT67Y36;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IAmWorthyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jtrant.iamworthy.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E135510695CA74CBCF5FB422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B0E83CA7E6206D75914022 /* Build configuration list for PBXNativeTarget "IAmWorthy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B8656C43C7FF15DEA48F1B /* Debug */,
+				A6085512CA7CD0D7B3163093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		855BADBCCA40F40D2B72A46C /* Build configuration list for PBXNativeTarget "IAmWorthyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C136E8098CB87B3B16C0DBDA /* Debug */,
+				459968935F89F3242C0A4B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E801F152EAD89CA7F7659ED /* Build configuration list for PBXProject "IAmWorthy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82599755025A3F07D62885EF /* Debug */,
+				E135510695CA74CBCF5FB422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D214795FE77E506D067E3F0B /* Project object */;
+}

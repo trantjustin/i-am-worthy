@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthy-primary.dia",
+    "emit-module-dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthy-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthy-primary-emit-module.dia",
+    "pch" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthy-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthy-primary.swiftdeps"
+  },
+  "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/IAmWorthyApp/ContentView.swift" : {
+    "const-values" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/IAmWorthyApp/IAmWorthyApp.swift" : {
+    "const-values" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.swiftconstvalues",
+    "dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.d",
+    "diagnostics" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.dia",
+    "index-unit-output-path" : "/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.o",
+    "llvm-bc" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.bc",
+    "object" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.o",
+    "swift-dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp.swiftdeps",
+    "swiftmodule" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/IAmWorthyApp~partial.swiftmodule"
+  },
+  "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/Shared/Affirmations.swift" : {
+    "const-values" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.swiftconstvalues",
+    "dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.d",
+    "diagnostics" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.dia",
+    "index-unit-output-path" : "/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.o",
+    "llvm-bc" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.bc",
+    "object" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.o",
+    "swift-dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations.swiftdeps",
+    "swiftmodule" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/Affirmations~partial.swiftmodule"
+  },
+  "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/IAmWorthy.build/Debug-iphonesimulator/IAmWorthy.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

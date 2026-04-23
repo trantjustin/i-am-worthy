@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "0cbd125c7c7b74a16bdf4d6c391f6076247ff35fbdacdbc700b6f6e0912a2c85"
+    }
+  ],
+  "containerPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/IAmWorthy.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Products",
+      "derivedDataPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build",
+      "indexDataStoreFolderPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/jtrant/Library/CloudStorage/OneDrive-Proofpoint,Inc/Documents/Xcode Projects/IAm/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
