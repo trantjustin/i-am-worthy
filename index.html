@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Am Worthy</title>
+<meta name="description" content="A tiny iPhone app that replaces your Lock Screen date with a daily affirmation.">
+<style>
+:root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --accent: #0a84ff;
+    --card: #f5f5f7;
+    --border: #e5e5ea;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #000000;
+        --fg: #f5f5f7;
+        --muted: #8e8e93;
+        --accent: #0a84ff;
+        --card: #1c1c1e;
+        --border: #2c2c2e;
+    }
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+}
+.wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+header { margin-bottom: 48px; }
+h1 {
+    font-size: 2.2rem;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+}
+.tagline {
+    color: var(--muted);
+    font-size: 1.15rem;
+    margin: 0 0 32px;
+}
+h2 {
+    font-size: 1.3rem;
+    margin: 40px 0 12px;
+    letter-spacing: -0.01em;
+}
+p { margin: 0 0 16px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 16px 0;
+}
+.links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.links a {
+    padding: 10px 18px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--fg);
+    font-weight: 500;
+}
+.links a:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+    text-decoration: none;
+}
+footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <h1>I Am Worthy</h1>
+        <p class="tagline">A tiny iPhone app that replaces your Lock Screen date with a daily affirmation.</p>
+    </header>
+
+    <p>Instead of <em>Wed 23 Apr</em>, your Lock Screen shows <em>Wed 23 Apr | I am worthy</em> — one short, curated message that changes every day.</p>
+
+    <div class="card">
+        <strong>How to use it:</strong> long-press your Lock Screen &rarr; <em>Customize</em> &rarr; tap the Lock Screen &rarr; tap the date pill above the clock &rarr; choose <strong>I Am</strong>.
+    </div>
+
+    <h2>Need help?</h2>
+    <p>The support page has setup tips, troubleshooting, and a contact address. The privacy policy explains what data the app uses (spoiler: none).</p>
+
+    <div class="links">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://github.com/trantjustin/i-am-worthy">Source on GitHub</a>
+    </div>
+
+    <footer>
+        &copy; 2026 Justin Trant &middot; Released under the GNU General Public License v3.0
+    </footer>
+</div>
+</body>
+</html>

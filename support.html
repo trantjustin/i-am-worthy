@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support &middot; I Am Worthy</title>
+<meta name="description" content="Support and FAQ for the I Am Worthy iPhone app.">
+<style>
+:root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --accent: #0a84ff;
+    --card: #f5f5f7;
+    --border: #e5e5ea;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #000000;
+        --fg: #f5f5f7;
+        --muted: #8e8e93;
+        --accent: #0a84ff;
+        --card: #1c1c1e;
+        --border: #2c2c2e;
+    }
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+}
+.wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+nav {
+    margin-bottom: 32px;
+    font-size: 0.95rem;
+}
+nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-right: 16px;
+}
+nav a:hover { color: var(--accent); }
+h1 {
+    font-size: 2rem;
+    margin: 0 0 32px;
+    letter-spacing: -0.02em;
+}
+h2 {
+    font-size: 1.25rem;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+}
+h3 {
+    font-size: 1.05rem;
+    margin: 24px 0 8px;
+}
+p { margin: 0 0 14px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { padding-left: 20px; margin: 0 0 14px; }
+li { margin-bottom: 6px; }
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 16px 0 24px;
+}
+code {
+    background: var(--card);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: "SF Mono", ui-monospace, Menlo, Monaco, monospace;
+}
+footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+    <nav>
+        <a href="index.html">&larr; Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="https://github.com/trantjustin/i-am-worthy">GitHub</a>
+    </nav>
+
+    <h1>Support</h1>
+
+    <p>Thanks for using <strong>I Am Worthy</strong>. If you need help, have a question, or want to suggest an affirmation, there are two ways to reach out:</p>
+
+    <div class="card">
+        <p><strong>Email:</strong> <a href="mailto:REPLACE_WITH_HIDE_MY_EMAIL_ALIAS@icloud.com">REPLACE_WITH_HIDE_MY_EMAIL_ALIAS@icloud.com</a></p>
+        <p style="margin-bottom: 0;"><strong>Bug reports &amp; feature requests:</strong> <a href="https://github.com/trantjustin/i-am-worthy/issues/new">Open an issue on GitHub</a></p>
+    </div>
+
+    <h2>Getting started</h2>
+
+    <h3>How do I add the widget to my Lock Screen?</h3>
+    <ul>
+        <li>Wake your iPhone but don't unlock it.</li>
+        <li>Long-press the Lock Screen, then tap <strong>Customize</strong>.</li>
+        <li>Tap the Lock Screen option.</li>
+        <li>Tap the <strong>date</strong> pill above the clock.</li>
+        <li>Choose <strong>I Am</strong> from the list of widget providers.</li>
+        <li>Tap <strong>Done</strong> in the top-right to save.</li>
+    </ul>
+
+    <h3>What iPhone and iOS version do I need?</h3>
+    <p>I Am Worthy requires <strong>iOS 17.0 or later</strong> on iPhone. iPad and Apple Watch are not currently supported.</p>
+
+    <h2>Troubleshooting</h2>
+
+    <h3>"I Am" doesn't appear in the Lock Screen widget picker</h3>
+    <ul>
+        <li>Confirm the app is installed and has been launched at least once.</li>
+        <li>Reboot the iPhone — iOS occasionally needs a restart to register a newly installed widget.</li>
+        <li>Make sure you're on iOS 17.0 or later (<code>Settings &rarr; General &rarr; About</code>).</li>
+    </ul>
+
+    <h3>The affirmation didn't change today</h3>
+    <p>The app picks one affirmation per calendar day based on your device's local date. The message flips at local midnight. If your time zone changed recently, the new message will appear after the next local midnight.</p>
+
+    <h3>The message is cut off or truncated</h3>
+    <p>The Lock Screen inline slot is narrow, especially on smaller iPhones. If you see a truncated affirmation on your device, please <a href="https://github.com/trantjustin/i-am-worthy/issues/new">open an issue</a> with your iPhone model so the affirmation list can be tuned.</p>
+
+    <h3>Can I pick my own affirmations?</h3>
+    <p>Not yet — the current version ships with a curated list. Custom affirmations are being considered for a future release.</p>
+
+    <h2>Suggesting an affirmation</h2>
+    <p>New affirmation ideas are welcome. Please <a href="https://github.com/trantjustin/i-am-worthy/issues/new">open a GitHub issue</a> with the label <code>affirmation</code> and your suggestion. Affirmations are kept deliberately short (under 20 characters) so the full <em>"Wed 23 Apr | &lt;message&gt;"</em> fits the Lock Screen date slot.</p>
+
+    <h2>Privacy</h2>
+    <p>I Am Worthy does not collect, transmit, or store any personal data. The app works entirely offline. See the <a href="privacy.html">full privacy policy</a> for details.</p>
+
+    <footer>
+        Last updated 23 April 2026 &middot; <a href="index.html">I Am Worthy</a>
+    </footer>
+</div>
+</body>
+</html>
