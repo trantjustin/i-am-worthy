@@ -23,6 +23,8 @@ targets:
     sources:
       - path: IAmWorthyApp
       - path: Shared
+      - path: IAmWorthyApp/PrivacyInfo.xcprivacy
+        buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.proofpoint.jtrant.iamworthy

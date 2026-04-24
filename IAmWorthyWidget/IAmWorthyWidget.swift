@@ -45,8 +45,8 @@ struct IAmWidgetEntryView: View {
 
     var body: some View {
         // iOS prepends the date automatically in the inline slot, so we
-        // only emit the separator + affirmation: " - I am strong".
-        Text("- \(entry.message)")
+        // only emit the separator + affirmation: "- I am strong".
+        Text("-  \(entry.message)")
             .widgetAccentable()
     }
 }

@@ -65,9 +65,9 @@ ctx.drawRadialGradient(highlight,
                        endRadius: side * 0.6,
                        options: [])
 
-// 3. "I AM" in bold rounded white.
-let text = "I AM" as NSString
-let font = NSFont.systemFont(ofSize: 380, weight: .black).withRoundedDesign()
+// 3. "I AM / WORTHY" stacked on two lines in bold rounded white.
+let text = "I AM\nWORTHY" as NSString
+let font = NSFont.systemFont(ofSize: 185, weight: .black).withRoundedDesign()
 let shadow = NSShadow()
 shadow.shadowColor = NSColor.black.withAlphaComponent(0.25)
 shadow.shadowBlurRadius = 18
@@ -75,6 +75,7 @@ shadow.shadowOffset = NSSize(width: 0, height: -6)
 
 let style = NSMutableParagraphStyle()
 style.alignment = .center
+style.lineBreakMode = .byWordWrapping
 
 let attrs: [NSAttributedString.Key: Any] = [
     .font: font,
@@ -83,11 +84,15 @@ let attrs: [NSAttributedString.Key: Any] = [
     .shadow: shadow,
     .paragraphStyle: style
 ]
-let textSize = text.size(withAttributes: attrs)
+let attrStr = NSAttributedString(string: text as String, attributes: attrs)
+let textBounds = attrStr.boundingRect(
+    with: NSSize(width: side, height: side),
+    options: [.usesLineFragmentOrigin, .usesFontLeading]
+)
 let rect = NSRect(x: 0,
-                  y: (side - textSize.height) / 2 - 20,
+                  y: (side - textBounds.height) / 2,
                   width: side,
-                  height: textSize.height)
+                  height: textBounds.height)
 text.draw(in: rect, withAttributes: attrs)
 
 NSGraphicsContext.restoreGraphicsState()
