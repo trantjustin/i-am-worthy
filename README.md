@@ -10,12 +10,7 @@ Built with SwiftUI and WidgetKit as an `.accessoryInline` Lock Screen widget. On
 
 | Lock Screen | Customize picker |
 | :---: | :---: |
-| _coming soon_ | _coming soon_ |
-
-<!--
-![Lock Screen](docs/lockscreen.png)
-![Customize picker](docs/customize.png)
--->
+| [Lock Screen](docs/lockscreen.png) | [Customize picker](docs/customize.png) |
 
 ## Features
 
