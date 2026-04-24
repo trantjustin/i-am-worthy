@@ -131,13 +131,13 @@ public enum Affirmations {
         "I claim my power"
     ]
 
-    /// Deterministic selection based on the day of the Gregorian calendar.
-    /// Same input date -> same affirmation across app + widget.
-    public static func affirmation(for date: Date = Date(),
-                                   calendar: Calendar = .current) -> String {
-        let startOfDay = calendar.startOfDay(for: date)
-        let days = Int(startOfDay.timeIntervalSinceReferenceDate / 86_400)
-        let idx = ((days % all.count) + all.count) % all.count
+    /// Pseudo-random selection that changes every 12 hours.
+    /// Uses a multiplicative hash so consecutive slots feel random, not sequential.
+    /// Same input date -> same affirmation across app + widget within that window.
+    public static func affirmation(for date: Date = Date()) -> String {
+        let slot = Int(date.timeIntervalSinceReferenceDate / 43_200) // 43 200 s = 12 h
+        let h = (slot &* 1_000_003) ^ 0x5555_5555
+        let idx = ((h % all.count) + all.count) % all.count
         return all[idx]
     }
 

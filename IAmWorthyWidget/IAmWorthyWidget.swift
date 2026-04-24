@@ -18,21 +18,26 @@ struct AffirmationProvider: TimelineProvider {
                                     message: Affirmations.affirmation(for: now)))
     }
 
-    /// Build a timeline with one entry per day for the next 7 days so the
-    /// message flips at local midnight without needing a background refresh.
+    /// Build a timeline with one entry per 12-hour window for the next 7 days
+    /// (14 entries) so the message flips at midnight and noon without a background refresh.
     func getTimeline(in context: Context,
                      completion: @escaping (Timeline<AffirmationEntry>) -> Void) {
         let calendar = Calendar.current
-        let startOfToday = calendar.startOfDay(for: Date())
+        let now = Date()
+
+        // Snap to the start of the current 12-hour window (midnight or noon local time).
+        let startOfDay = calendar.startOfDay(for: now)
+        let noon = startOfDay.addingTimeInterval(43_200)
+        let windowStart = now >= noon ? noon : startOfDay
 
         var entries: [AffirmationEntry] = []
-        for dayOffset in 0..<7 {
-            guard let day = calendar.date(byAdding: .day, value: dayOffset, to: startOfToday) else { continue }
-            entries.append(AffirmationEntry(date: day,
-                                            message: Affirmations.affirmation(for: day)))
+        for slotOffset in 0..<14 {
+            let slot = windowStart.addingTimeInterval(Double(slotOffset) * 43_200)
+            entries.append(AffirmationEntry(date: slot,
+                                            message: Affirmations.affirmation(for: slot)))
         }
 
-        let nextRefresh = calendar.date(byAdding: .day, value: 7, to: startOfToday) ?? Date().addingTimeInterval(86_400)
+        let nextRefresh = windowStart.addingTimeInterval(14 * 43_200)
         completion(Timeline(entries: entries, policy: .after(nextRefresh)))
     }
 }
