@@ -53,6 +53,7 @@ struct IAmWidgetEntryView: View {
         // only emit the separator + affirmation: "- I am strong".
         Text("-  \(entry.message)")
             .widgetAccentable()
+            .privacySensitive(false)
     }
 }
 

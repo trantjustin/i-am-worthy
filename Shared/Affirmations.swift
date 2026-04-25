@@ -131,14 +131,25 @@ public enum Affirmations {
         "I claim my power"
     ]
 
+    // MARK: - Custom Quotes
+    // Add your own affirmations here. Keep them short (≤ 5 words) to fit the Lock Screen slot.
+    public static let customQuotes: [String] = [
+        // "Your quote here",
+    ]
+
+    /// Combined pool used for selection — built-in quotes plus any custom ones.
+    private static var pool: [String] {
+        customQuotes.isEmpty ? all : all + customQuotes
+    }
+
     /// Pseudo-random selection that changes every 12 hours.
     /// Uses a multiplicative hash so consecutive slots feel random, not sequential.
     /// Same input date -> same affirmation across app + widget within that window.
     public static func affirmation(for date: Date = Date()) -> String {
         let slot = Int(date.timeIntervalSinceReferenceDate / 43_200) // 43 200 s = 12 h
         let h = (slot &* 1_000_003) ^ 0x5555_5555
-        let idx = ((h % all.count) + all.count) % all.count
-        return all[idx]
+        let idx = ((h % pool.count) + pool.count) % pool.count
+        return pool[idx]
     }
 
     /// Header like "Wed 22 Apr" matching iOS Calendar widget styling.

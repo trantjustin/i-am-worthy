@@ -65,8 +65,8 @@ ctx.drawRadialGradient(highlight,
                        endRadius: side * 0.6,
                        options: [])
 
-// 3. "I AM / WORTHY" stacked on two lines in bold rounded white.
-let text = "I AM\nWORTHY" as NSString
+// 3. "I AM / WORTHY!" stacked on two lines in bold rounded white.
+let text = "I AM\nWORTHY!" as NSString
 let font = NSFont.systemFont(ofSize: 185, weight: .black).withRoundedDesign()
 let shadow = NSShadow()
 shadow.shadowColor = NSColor.black.withAlphaComponent(0.25)
