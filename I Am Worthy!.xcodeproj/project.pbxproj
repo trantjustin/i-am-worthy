@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B06CEE8D41CBFF576FC9F5 /* IAmWorthyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 44353AF2F5C26FC859ECF730 /* IAmWorthyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		245A2DC96CAC724053A7E723 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFBFC33590F8FAE0266514F /* WidgetKit.framework */; };
+		27518CCFF8243220BF97DE55 /* IAmWorthyWatchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C738E40328F5A55EDDDA8 /* IAmWorthyWatchWidget.swift */; };
+		2D1F30C217970B9914A00048 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120055E89C043B58E779B28F /* WatchContentView.swift */; };
+		52B5ECA1309B1D2BD6FA8A2C /* IAmWorthyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2E04A3B166D474814F63AE /* IAmWorthyWidget.swift */; };
+		65B034967D9090C65CBEC27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA2E2DBC0435397C87895F /* Assets.xcassets */; };
+		66706A1AA1D80547FB18F56A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34A23172F1A070611C1694A3 /* PrivacyInfo.xcprivacy */; };
+		6F31B14AB07AA59F53FC4C92 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EAC671839872919228D3E /* Affirmations.swift */; };
+		80AB7718BA516E38026AC40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D0E97F173EBE9A02E5B52F /* Assets.xcassets */; };
+		914CB6DA4CA8CA023397AE26 /* IAmWorthyWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 52FDF463012586E7314FC154 /* IAmWorthyWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96BFB132E86FDB394C23D087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C159543EDFC8E3736ADB20 /* ContentView.swift */; };
+		C49157491B7F68023E845B81 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EAC671839872919228D3E /* Affirmations.swift */; };
+		C7B8438A1FE8A20BAE9D5591 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F001E53D6F9C273BCEAF9CBB /* SwiftUI.framework */; };
+		C857D4A5BFB9F3A941EC8218 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F001E53D6F9C273BCEAF9CBB /* SwiftUI.framework */; };
+		CC3367A2419AB271DECB4659 /* IAmWorthyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B8DF1DB554628BEAAEC8AB /* IAmWorthyWidgetBundle.swift */; };
+		CC7EB3124CEF3CCA41C7CDB0 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EAC671839872919228D3E /* Affirmations.swift */; };
+		CF2A2C2DFA8CF4987D2657EE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFBFC33590F8FAE0266514F /* WidgetKit.framework */; };
+		D55F45A8E85865DF8A6BC68D /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EAC671839872919228D3E /* Affirmations.swift */; };
+		DE8F9270A220D22F877BF888 /* IAmWorthyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B745B352AF466D2990FA5 /* IAmWorthyApp.swift */; };
+		E3E53BC6DD4C2B37570B494B /* IAmWorthyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1FDC4FD41DEAE2F6A8225D /* IAmWorthyWatchApp.swift */; };
+		E696D928FAB4346D4D94E59F /* IAmWorthyWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 202ECE8849342709BA89EE80 /* IAmWorthyWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A81C969D29A72CB4928F4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC51701F95408E2C9F61300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D253971B08C61FAD8DBCA1;
+			remoteInfo = IAmWorthyWatch;
+		};
+		8AD20C96D95A3791FC71D14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC51701F95408E2C9F61300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A30CC9029112023F17FBB2E;
+			remoteInfo = IAmWorthyWidgetExtension;
+		};
+		F0B87A04FEC9EEE556913E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC51701F95408E2C9F61300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103F13E71E3CCC63348EC855;
+			remoteInfo = IAmWorthyWatchWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		038856C0D0B1430935A6A69F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E696D928FAB4346D4D94E59F /* IAmWorthyWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71650E03C4D2118A4A9AF445 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				914CB6DA4CA8CA023397AE26 /* IAmWorthyWatchWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5741DAE4866A37F6C0D6ECA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11B06CEE8D41CBFF576FC9F5 /* IAmWorthyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		120055E89C043B58E779B28F /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		197B745B352AF466D2990FA5 /* IAmWorthyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyApp.swift; sourceTree = "<group>"; };
+		1CC8A98B6C54D5101172B5C5 /* IAmWorthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmWorthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202ECE8849342709BA89EE80 /* IAmWorthyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmWorthyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A23172F1A070611C1694A3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		44353AF2F5C26FC859ECF730 /* IAmWorthyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IAmWorthyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D0E97F173EBE9A02E5B52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FDF463012586E7314FC154 /* IAmWorthyWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IAmWorthyWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA2E2DBC0435397C87895F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B1FDC4FD41DEAE2F6A8225D /* IAmWorthyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyWatchApp.swift; sourceTree = "<group>"; };
+		97C159543EDFC8E3736ADB20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FFBFC33590F8FAE0266514F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C63C738E40328F5A55EDDDA8 /* IAmWorthyWatchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyWatchWidget.swift; sourceTree = "<group>"; };
+		D23EAC671839872919228D3E /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
+		D9B8DF1DB554628BEAAEC8AB /* IAmWorthyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyWidgetBundle.swift; sourceTree = "<group>"; };
+		F001E53D6F9C273BCEAF9CBB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FE2E04A3B166D474814F63AE /* IAmWorthyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAmWorthyWidget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5336483256905C181A88C2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245A2DC96CAC724053A7E723 /* WidgetKit.framework in Frameworks */,
+				C857D4A5BFB9F3A941EC8218 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9B6DBC1F676BA3B8D34CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2A2C2DFA8CF4987D2657EE /* WidgetKit.framework in Frameworks */,
+				C7B8438A1FE8A20BAE9D5591 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EB5690B8A80995C7C8403D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D23EAC671839872919228D3E /* Affirmations.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		35FBA4634E9A7531A93446CD /* IAmWorthyWatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C63C738E40328F5A55EDDDA8 /* IAmWorthyWatchWidget.swift */,
+			);
+			path = IAmWorthyWatchWidget;
+			sourceTree = "<group>";
+		};
+		7CE8F235643644E8CF557939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8A98B6C54D5101172B5C5 /* IAmWorthy.app */,
+				202ECE8849342709BA89EE80 /* IAmWorthyWatch.app */,
+				52FDF463012586E7314FC154 /* IAmWorthyWatchWidget.appex */,
+				44353AF2F5C26FC859ECF730 /* IAmWorthyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18BFA7B4816A6407B8D773E = {
+			isa = PBXGroup;
+			children = (
+				ECB196FCCA03F3D5E663F558 /* IAmWorthyApp */,
+				B1C3D6C9A3BF8CA981943D3C /* IAmWorthyWatch */,
+				35FBA4634E9A7531A93446CD /* IAmWorthyWatchWidget */,
+				A3BD0CB0716496EDD8014850 /* IAmWorthyWidget */,
+				14EB5690B8A80995C7C8403D /* Shared */,
+				EA6F3465F693A30A522CB2BF /* Frameworks */,
+				7CE8F235643644E8CF557939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BD0CB0716496EDD8014850 /* IAmWorthyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FE2E04A3B166D474814F63AE /* IAmWorthyWidget.swift */,
+				D9B8DF1DB554628BEAAEC8AB /* IAmWorthyWidgetBundle.swift */,
+			);
+			path = IAmWorthyWidget;
+			sourceTree = "<group>";
+		};
+		B1C3D6C9A3BF8CA981943D3C /* IAmWorthyWatch */ = {
+			isa = PBXGroup;
+			children = (
+				51D0E97F173EBE9A02E5B52F /* Assets.xcassets */,
+				8B1FDC4FD41DEAE2F6A8225D /* IAmWorthyWatchApp.swift */,
+				120055E89C043B58E779B28F /* WatchContentView.swift */,
+			);
+			path = IAmWorthyWatch;
+			sourceTree = "<group>";
+		};
+		EA6F3465F693A30A522CB2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F001E53D6F9C273BCEAF9CBB /* SwiftUI.framework */,
+				9FFBFC33590F8FAE0266514F /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB196FCCA03F3D5E663F558 /* IAmWorthyApp */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA2E2DBC0435397C87895F /* Assets.xcassets */,
+				97C159543EDFC8E3736ADB20 /* ContentView.swift */,
+				197B745B352AF466D2990FA5 /* IAmWorthyApp.swift */,
+				34A23172F1A070611C1694A3 /* PrivacyInfo.xcprivacy */,
+			);
+			path = IAmWorthyApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103F13E71E3CCC63348EC855 /* IAmWorthyWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEE01A7AC23FC6FC031F7FE /* Build configuration list for PBXNativeTarget "IAmWorthyWatchWidget" */;
+			buildPhases = (
+				404EC180C5175A2F91F47FF8 /* Sources */,
+				8D9B6DBC1F676BA3B8D34CF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IAmWorthyWatchWidget;
+			packageProductDependencies = (
+			);
+			productName = IAmWorthyWatchWidget;
+			productReference = 52FDF463012586E7314FC154 /* IAmWorthyWatchWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		55D253971B08C61FAD8DBCA1 /* IAmWorthyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A2B648F478DAD87FCB4D1 /* Build configuration list for PBXNativeTarget "IAmWorthyWatch" */;
+			buildPhases = (
+				7AA6F43668B1B3A0A766F30E /* Sources */,
+				3D5B232A6876465D8E619D62 /* Resources */,
+				71650E03C4D2118A4A9AF445 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C6BB74C4AB9BE363F77197 /* PBXTargetDependency */,
+			);
+			name = IAmWorthyWatch;
+			packageProductDependencies = (
+			);
+			productName = IAmWorthyWatch;
+			productReference = 202ECE8849342709BA89EE80 /* IAmWorthyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A30CC9029112023F17FBB2E /* IAmWorthyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA1BD5FC6D91B86BF81054F /* Build configuration list for PBXNativeTarget "IAmWorthyWidgetExtension" */;
+			buildPhases = (
+				B892A05F0B6CBFAC0AF15951 /* Sources */,
+				5336483256905C181A88C2DE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IAmWorthyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = IAmWorthyWidgetExtension;
+			productReference = 44353AF2F5C26FC859ECF730 /* IAmWorthyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D8A35F0842C10A1CE605BC9F /* IAmWorthy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76DB0006AB2530448658F00 /* Build configuration list for PBXNativeTarget "IAmWorthy" */;
+			buildPhases = (
+				5B599061565BBD20369B8C1A /* Sources */,
+				DF03DDDC65FEF10FDE58E8CE /* Resources */,
+				A5741DAE4866A37F6C0D6ECA /* Embed Foundation Extensions */,
+				038856C0D0B1430935A6A69F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D414EE1E6CCEC0FA186DD91 /* PBXTargetDependency */,
+				2088AF20A3BB41441CEB57D4 /* PBXTargetDependency */,
+			);
+			name = IAmWorthy;
+			packageProductDependencies = (
+			);
+			productName = IAmWorthy;
+			productReference = 1CC8A98B6C54D5101172B5C5 /* IAmWorthy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC51701F95408E2C9F61300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					103F13E71E3CCC63348EC855 = {
+						DevelopmentTeam = 5L4KT67Y36;
+						ProvisioningStyle = Automatic;
+					};
+					55D253971B08C61FAD8DBCA1 = {
+						DevelopmentTeam = 5L4KT67Y36;
+						ProvisioningStyle = Automatic;
+					};
+					8A30CC9029112023F17FBB2E = {
+						DevelopmentTeam = 5L4KT67Y36;
+						ProvisioningStyle = Automatic;
+					};
+					D8A35F0842C10A1CE605BC9F = {
+						DevelopmentTeam = 5L4KT67Y36;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 000CC7F4900BCA5D0E09EB27 /* Build configuration list for PBXProject "I Am Worthy!" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A18BFA7B4816A6407B8D773E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7CE8F235643644E8CF557939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A35F0842C10A1CE605BC9F /* IAmWorthy */,
+				55D253971B08C61FAD8DBCA1 /* IAmWorthyWatch */,
+				103F13E71E3CCC63348EC855 /* IAmWorthyWatchWidget */,
+				8A30CC9029112023F17FBB2E /* IAmWorthyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5B232A6876465D8E619D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB7718BA516E38026AC40C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF03DDDC65FEF10FDE58E8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B034967D9090C65CBEC27A /* Assets.xcassets in Resources */,
+				66706A1AA1D80547FB18F56A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404EC180C5175A2F91F47FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7EB3124CEF3CCA41C7CDB0 /* Affirmations.swift in Sources */,
+				27518CCFF8243220BF97DE55 /* IAmWorthyWatchWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B599061565BBD20369B8C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49157491B7F68023E845B81 /* Affirmations.swift in Sources */,
+				96BFB132E86FDB394C23D087 /* ContentView.swift in Sources */,
+				DE8F9270A220D22F877BF888 /* IAmWorthyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA6F43668B1B3A0A766F30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55F45A8E85865DF8A6BC68D /* Affirmations.swift in Sources */,
+				E3E53BC6DD4C2B37570B494B /* IAmWorthyWatchApp.swift in Sources */,
+				2D1F30C217970B9914A00048 /* WatchContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B892A05F0B6CBFAC0AF15951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31B14AB07AA59F53FC4C92 /* Affirmations.swift in Sources */,
+				52B5ECA1309B1D2BD6FA8A2C /* IAmWorthyWidget.swift in Sources */,
+				CC3367A2419AB271DECB4659 /* IAmWorthyWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2088AF20A3BB41441CEB57D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D253971B08C61FAD8DBCA1 /* IAmWorthyWatch */;
+			targetProxy = 0A81C969D29A72CB4928F4D2 /* PBXContainerItemProxy */;
+		};
+		3D414EE1E6CCEC0FA186DD91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A30CC9029112023F17FBB2E /* IAmWorthyWidgetExtension */;
+			targetProxy = 8AD20C96D95A3791FC71D14B /* PBXContainerItemProxy */;
+		};
+		91C6BB74C4AB9BE363F77197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103F13E71E3CCC63348EC855 /* IAmWorthyWatchWidget */;
+			targetProxy = F0B87A04FEC9EEE556913E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02EAF76849F0D086678B9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Am Worthy!";
+				INFOPLIST_KEY_CFBundleName = "I Am Worthy!";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.jtrant.i-am-worthy";
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		1FF9960254CEFEA99A742CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IAmWorthyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy.widget";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		691687C754F1EC024CCDCFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5L4KT67Y36;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		77BC0ACD8CE2694A459E4621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Am Worthy!";
+				INFOPLIST_KEY_CFBundleName = "I Am Worthy!";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A5247C7D93005E0505A45A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Am Worthy!";
+				INFOPLIST_KEY_CFBundleName = "I Am Worthy!";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.jtrant.i-am-worthy";
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		A19DE3AF9D80FCAC575825C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5L4KT67Y36;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		ACA459583BE1B1A63524D554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IAmWorthyWatchWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy.watchkitapp.widget";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		B388447F5082EA222FE6F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IAmWorthyWatchWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy.watchkitapp.widget";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		F6CC87C80AF0168D40DF52F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "I Am Worthy!";
+				INFOPLIST_KEY_CFBundleName = "I Am Worthy!";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F8DEE62C8E8A6402B945EB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IAmWorthyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtrant.i-am-worthy.widget";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000CC7F4900BCA5D0E09EB27 /* Build configuration list for PBXProject "I Am Worthy!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19DE3AF9D80FCAC575825C4 /* Debug */,
+				691687C754F1EC024CCDCFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0EA1BD5FC6D91B86BF81054F /* Build configuration list for PBXNativeTarget "IAmWorthyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF9960254CEFEA99A742CEB /* Debug */,
+				F8DEE62C8E8A6402B945EB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1EEE01A7AC23FC6FC031F7FE /* Build configuration list for PBXNativeTarget "IAmWorthyWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B388447F5082EA222FE6F07E /* Debug */,
+				ACA459583BE1B1A63524D554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C76DB0006AB2530448658F00 /* Build configuration list for PBXNativeTarget "IAmWorthy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BC0ACD8CE2694A459E4621 /* Debug */,
+				F6CC87C80AF0168D40DF52F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F58A2B648F478DAD87FCB4D1 /* Build configuration list for PBXNativeTarget "IAmWorthyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5247C7D93005E0505A45A9 /* Debug */,
+				02EAF76849F0D086678B9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC51701F95408E2C9F61300 /* Project object */;
+}

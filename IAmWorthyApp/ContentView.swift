@@ -15,9 +15,10 @@ struct ContentView: View {
                     Label("How to set it up", systemImage: "lock.fill")
                         .font(.headline)
 
-                    Text("I Am Worthy replaces the date on your iPhone Lock Screen with a short daily affirmation — a quiet reminder of your strength every time you glance at your phone. Each day brings a new message, automatically.")
+                    Text("I Am Worthy replaces the date on your iPhone Lock Screen with a short affirmation — a quiet reminder of your strength every time you glance at your phone. Messages rotate throughout the day at regular intervals.")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
 
                     Divider()
 
@@ -25,15 +26,11 @@ struct ContentView: View {
                         Label("Long-press your Lock Screen", systemImage: "1.circle.fill")
                         Label("Tap Customize → Lock Screen", systemImage: "2.circle.fill")
                         Label("Tap the date above the clock", systemImage: "3.circle.fill")
-                        Label("Select I Am from the widget list", systemImage: "4.circle.fill")
+                        Label("Select **I Am Worthy!** from the widget list", systemImage: "4.circle.fill")
                         Label("Tap Done and enjoy!", systemImage: "5.circle.fill")
                     }
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
-
-                    Text("Your affirmation rotates daily — same message all day long.")
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
@@ -42,7 +39,7 @@ struct ContentView: View {
                 Spacer()
             }
             .padding()
-            .navigationTitle("I Am Worthy")
+            .navigationTitle("I Am Worthy!")
             .onReceive(timer) { now = $0 }
         }
     }
@@ -55,7 +52,7 @@ struct LockScreenPreview: View {
 
     var body: some View {
         VStack(spacing: 10) {
-            Text("\(Affirmations.dateHeader(for: date)) | \(message)")
+            Text("\(Affirmations.dateHeader(for: date))  -  \(message)")
                 .font(.system(size: 15, weight: .semibold, design: .rounded))
                 .foregroundStyle(.white)
                 .lineLimit(1)

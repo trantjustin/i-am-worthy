@@ -4,137 +4,167 @@ import Foundation
 /// so the widget and the app always show the same message on a given date.
 public enum Affirmations {
 
-    // Short affirmations curated / distilled from:
-    //   https://livelovesimple.com/101-inspirational-quotes/
-    //   https://www.briantracy.com/blog/personal-success/inspirational-quotes/
-    //   https://www.goodreads.com/quotes/tag/affirmation
-    //   https://positivepsychology.com/daily-affirmations/
-    // Kept deliberately short so the combined "Wed 22 Apr | <message>" fits
-    // the .accessoryInline Lock Screen slot on iPhone 14 Pro (narrowest).
+    // Short, generic inspirational / motivational phrases.
+    // No attribution by design — these read as universal nudges rather than
+    // quotations. Kept deliberately short (≤ 5 words / ~16 chars) so the
+    // combined "Wed 22 Apr | <message>" fits the .accessoryInline Lock Screen
+    // slot on iPhone 14 Pro (narrowest).
     public static let all: [String] = [
-        // Fear / courage
-        "I am not afraid",
-        "I was born for this",
-        "I act bravely",
-        "I face the light",
-        "I do it anyway",
-        "I take the chance",
-        "I am fearless",
-        "I lean into fear",
-        "I am braver now",
+        // Courage / boldness
+        "Be brave",
+        "Be bold",
+        "Be fearless",
+        "Live boldly",
+        "Take the leap",
+        "Dare greatly",
 
-        // Strength / resilience
-        "I am strong",
-        "I have a backbone",
-        "I conquer myself",
-        "I am unshaken",
-        "I am resilient",
-        "I rise again",
-        "I keep going",
-        "I persist always",
-        "I am rock solid",
-        "I hold my ground",
+        // Persistence
+        "Never give up",
+        "Keep going",
+        "Press on",
+        "Persist",
+        "Onward",
+        "Keep climbing",
+        "Stay the course",
 
-        // Self-worth
+        // Action / starting
+        "Just begin",
+        "Begin now",
+        "Do it now",
+        "Show up",
+        "Make it happen",
+        "Make today count",
+
+        // Strength
+        "Stay strong",
+        "Stand tall",
+        "Rise up",
+        "Rise and shine",
+
+        // Mindset / joy
+        "Choose joy",
+        "Choose growth",
+        "Find the joy",
+        "Stay curious",
+        "Stay hungry",
+        "Dream big",
+        "Keep dreaming",
+
+        // Presence / authenticity
+        "Be present",
+        "Stay true",
+        "Stay grounded",
+        "Stay humble",
+        "Stay focused",
+        "Trust yourself",
+        "Find your why",
+
+        // Kindness / outward
+        "Be kind",
+        "Do good",
+        "Lead with love",
+        "Speak up",
+        "Light the way",
+        "Be the change",
+
+        // Growth / outcome
+        "Embrace change",
+        "Aim high",
+        "Shine bright",
+        "Live fully",
+        "Be unstoppable",
+        "Less is more",
+        "Carpe diem",
+
+        // --- Additional phrases ---
+
+        // Self-belief / voice
+        "Believe in you",
+        "You got this",
+        "Trust your gut",
+        "Own your story",
+        "Find your voice",
+        "Use your voice",
+        "Speak truth",
+        "Speak your truth",
+        "Live your truth",
+        "Walk your talk",
+        "You matter",
+        "Today matters",
+
+        // More courage / momentum
+        "Choose courage",
+        "Step forward",
+        "Move forward",
+        "Forge ahead",
+        "Push through",
+        "Break through",
+        "Hold the line",
+        "Win the day",
+        "Seize today",
+        "Day by day",
+
+        // More resilience
+        "Try, try again",
+        "Bend not break",
+        "Begin again",
+        "Start fresh",
+        "Stay rooted",
+
+        // More mindset / joy
+        "Choose love",
+        "Choose hope",
+        "Choose kindness",
+        "Choose patience",
+        "Laugh often",
+        "Smile more",
+        "Be playful",
+        "Spread joy",
+        "Have fun",
+
+        // More presence / calm
+        "Stay calm",
+        "Breathe deep",
+        "Be still",
+        "Slow down",
+        "Let go",
+        "Find balance",
+
+        // More kindness / outward
+        "Be the light",
+        "Lift others up",
+        "Sow kindness",
+        "Listen well",
+        "Plant seeds",
+
+        // More growth
+        "Grow daily",
+        "Bloom now",
+        "Heal and grow",
+
+        // Classic "I am" affirmations
         "I am good enough",
+        "I am strong",
         "I am enough",
         "I am worthy",
-        "I am capable",
         "I am loved",
-        "I am valued",
-        "I deserve rest",
-        "I take up space",
-        "I matter greatly",
-        "I belong here",
-        "I honor myself",
-        "I trust myself",
-
-        // Happiness / mindset
-        "I choose joy",
-        "I choose peace",
-        "I don't worry",
-        "I adjust my sails",
-        "I find solutions",
-        "I am optimistic",
-        "I welcome today",
-        "I radiate light",
-        "I see the good",
-        "I am at peace",
-
-        // Presence
-        "I live now",
-        "I am present",
-        "I am here",
-        "I am calm",
-        "I breathe deeply",
-        "I breathe, I am",
-        "I am still here",
-
-        // Gratitude / kindness
+        "I am capable",
         "I am grateful",
-        "I say thank you",
-        "I see the miracle",
-        "I am kind",
-        "I speak kindly",
-        "I heal with words",
-        "I give freely",
-        "I receive grace",
-
-        // Purpose
-        "I come alive",
-        "I enrich the world",
-        "I have a song",
-        "I live on purpose",
-        "I make a dent",
-        "I serve with love",
-        "I light the way",
-
-        // Hard work / discipline
-        "I do the work",
-        "I start now",
-        "I stay consistent",
-        "I finish strong",
-        "I am disciplined",
-        "I aim high",
-        "I do what I can",
-        "I show up daily",
-        "I stay the course",
-
-        // Growth / learning
-        "I am learning",
-        "I grow daily",
-        "I unlearn and grow",
-        "I embrace change",
-        "I welcome feedback",
-        "I evolve each day",
-
-        // Brian Tracy signatures
-        "I can, I will",
-        "I am a winner",
-        "I like myself",
-        "I am responsible",
-        "I make it happen",
-        "I set clear goals",
-        "I move forward",
-
-        // Success / outcome
-        "I will succeed",
-        "I am unstoppable",
+        "I am calm",
+        "I am brave",
+        "I am here",
+        "I am present",
+        "I am fearless",
+        "I am resilient",
         "I am confident",
-        "I am focused",
-        "I trust the process",
-        "I am proud of me",
-        "I am becoming",
-        "I create my life",
-        "I attract success",
-        "I write my story",
-        "I claim my power"
+        "I am at peace"
     ]
 
     // MARK: - Custom Quotes
     // Add your own affirmations here. Keep them short (≤ 5 words) to fit the Lock Screen slot.
     public static let customQuotes: [String] = [
         // "Your quote here",
+        "I am proud"
     ]
 
     /// Combined pool used for selection — built-in quotes plus any custom ones.
@@ -142,14 +172,83 @@ public enum Affirmations {
         customQuotes.isEmpty ? all : all + customQuotes
     }
 
-    /// Pseudo-random selection that changes every 12 hours.
-    /// Uses a multiplicative hash so consecutive slots feel random, not sequential.
-    /// Same input date -> same affirmation across app + widget within that window.
+    public struct Slot {
+        public let start: Date
+        public let end: Date
+        public let message: String
+    }
+
+    // Slot duration is uniformly random in [minSlot, maxSlot). Day-aligned so
+    // the schedule is cheap to compute (no walk from epoch) but the user can't
+    // predict when the affirmation will flip within the day.
+    private static let minSlot: TimeInterval = 3_600        // 1 h
+    private static let maxSlot: TimeInterval = 28_800       // 8 h
+    private static let secondsPerDay: TimeInterval = 86_400
+
+    /// Deterministic int mix — same inputs always produce same output across
+    /// processes (Swift's `Hasher` is per-process randomized, so we can't use it).
+    private static func mix(_ a: Int, _ b: Int) -> Int {
+        // Compute in UInt64 so the constants don't overflow on 32-bit Int
+        // platforms (e.g. arm64_32 watchOS).
+        let ua = UInt64(bitPattern: Int64(a))
+        let ub = UInt64(bitPattern: Int64(b))
+        let h = (ua &* 1_000_003) ^ (ub &* 2_654_435_761)
+        let mixed = (h &* 1_000_003) ^ 0x5555_5555
+        return Int(truncatingIfNeeded: mixed)
+    }
+
+    /// All slots that fall within the local calendar day containing `date`.
+    /// Slot lengths vary, so a day has between ~3 and ~24 slots; the final
+    /// slot is clamped to midnight to keep day boundaries deterministic.
+    private static func slotsInDay(containing date: Date,
+                                   calendar: Calendar = .current) -> [Slot] {
+        let dayStart = calendar.startOfDay(for: date)
+        let dayEnd = dayStart.addingTimeInterval(secondsPerDay)
+        let dayKey = Int(dayStart.timeIntervalSinceReferenceDate / secondsPerDay)
+        let span = Int(maxSlot - minSlot)
+
+        var result: [Slot] = []
+        var cursor = dayStart
+        var i = 0
+        while cursor < dayEnd {
+            let h = mix(dayKey, i)
+            let dur = minSlot + TimeInterval(((h % span) + span) % span)
+            let end = min(cursor.addingTimeInterval(dur), dayEnd)
+            let idx = (((h / span) % pool.count) + pool.count) % pool.count
+            result.append(Slot(start: cursor, end: end, message: pool[idx]))
+            cursor = end
+            i += 1
+        }
+        return result
+    }
+
+    /// The slot active at `date`. Same input date -> same slot across app + widget.
+    public static func currentSlot(for date: Date = Date(),
+                                   calendar: Calendar = .current) -> Slot {
+        let slots = slotsInDay(containing: date, calendar: calendar)
+        return slots.first(where: { date < $0.end }) ?? slots.last!
+    }
+
+    /// Convenience: just the message at `date`.
     public static func affirmation(for date: Date = Date()) -> String {
-        let slot = Int(date.timeIntervalSinceReferenceDate / 43_200) // 43 200 s = 12 h
-        let h = (slot &* 1_000_003) ^ 0x5555_5555
-        let idx = ((h % pool.count) + pool.count) % pool.count
-        return pool[idx]
+        currentSlot(for: date).message
+    }
+
+    /// Up to `count` slots starting at or covering `date`, walking forward
+    /// across day boundaries. Used by `TimelineProvider` to pre-bake entries.
+    public static func upcomingSlots(from date: Date = Date(),
+                                     count: Int,
+                                     calendar: Calendar = .current) -> [Slot] {
+        var result: [Slot] = []
+        var dayCursor = calendar.startOfDay(for: date)
+        while result.count < count {
+            for slot in slotsInDay(containing: dayCursor, calendar: calendar) where slot.end > date {
+                result.append(slot)
+                if result.count >= count { return result }
+            }
+            dayCursor = dayCursor.addingTimeInterval(secondsPerDay)
+        }
+        return result
     }
 
     /// Header like "Wed 22 Apr" matching iOS Calendar widget styling.
